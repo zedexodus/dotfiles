@@ -1,0 +1,133 @@
+# xterm settings
+xterm*background: black
+xterm*foreground: grey
+#xterm*font:-*-terminus-regular-*-*-*-12-*-*-*-*-*-cp1251
+xterm*faceName: xft:terminus:pixelsize=10
+xterm*loginShell: true
+
+# urxvt main settings
+URxvt*loginShell: true
+URxvt*font: xft:terminus:pixelsize=12
+URxvt*fontBold: xft:terminus:bold:pixelsize=12
+#URxvt*background: #000000
+URxvt*background: [80]#000000
+URxvt*foreground: #C0C0C0
+URxvt*cursorColor: #C0C0C0
+URxvt*scrollBar: false
+URxvt*internalBorder: 0
+URxvt*externalBorder: 0
+
+# urxvt console colours                        #
+
+URxvt.dynamicColors: on
+URxvt.termName: rxvt-unicode-256color
+#URxvt.termName: xterm-256color
+
+# Old colors
+# Black
+URxvt*color0:  #6c6c6c
+URxvt*color8:  #747474
+# Red
+URxvt*color1:  #e9897c
+URxvt*color9:  #f99286
+# Green
+URxvt*color2:  #b6e77d
+URxvt*color10: #c3f786
+# Yellow
+URxvt*color3:  #ecebbe
+URxvt*color11: #fcfbcc
+# Blue
+URxvt*color4:  #a9cdeb
+URxvt*color12: #b6defb
+# Magenta
+URxvt*color5:  #ea96eb
+URxvt*color13: #fba1fb
+# Cyan
+URxvt*color6:  #c9caec
+URxvt*color14: #d7d9fc
+# White
+URxvt*color7:  #f2f2f2
+URxvt*color15: #e2e2e2
+
+# Black
+#URxvt*color0:  #888888
+#URxvt*color8:  #525252
+# Red
+#URxvt*color1:  #cf6a4c
+#URxvt*color9:  #ff9d80
+# Green
+#URxvt*color2:  #99ad6a
+#URxvt*color10: #c3e6ad
+# Yellow
+#URxvt*color3:  #fad07a
+#URxvt*color11: #ffefbf
+# Blue
+#URxvt*color4:  #8197bf
+#URxvt*color12: #accaff
+# Magenta
+#URxvt*color5:  #8787af
+#URxvt*color13: #c4c4ff
+# Cyan
+#URxvt*color6:  #8fbfdc
+#URxvt*color14: #80bfaf
+# White - Used white from last color scheme.
+#URxvt*color7: #f2f2f2
+#URxvtcolor15: #e8e8d3
+
+# URxvt Home/End Keys
+
+#URxvt*keysym.Home: \033[1~
+#URxvt*keysym.End: \033[8~
+
+# Default Gentoo Wiki Theme
+
+# Black
+#URxvt*color0:  #251f1f
+#URxvt*color8:  #5e5e5e
+# Red
+#URxvt*color1:  #eb4509
+#URxvt*color9:  #eb4509
+# Green
+#URxvt*color2:  #94e76b
+#URxvt*color10: #94e76b
+# Yellow
+#URxvt*color3:  #ffac18
+#URxvt*color11: #ffac18
+# Blue
+#URxvt*color4:  #46aede
+#URxvt*color12: #46aede
+# Magenta
+#URxvt*color5:  #e32c57
+#URxvt*color13: #e32c57
+# Cyan
+#URxvt*color6:  #d6dbac
+#URxvt*color14: #d6dbac
+# White
+#URxvt*color7:  #efefef
+#URxvt*color15: #efefef
+
+##########################################
+# true transparency                      #
+##########################################
+# set to 32- bit for real transparency   #
+##########################################
+URxvt*depth: 32
+#URxvt*background: rgba:1111/1111/1111/bbbb
+#URxvt*background: rgba:0000/0000/0000/bbbb
+#URxvt*background: rgba:0000/0000/0000/bbbb
+
+##########################################
+# psuedo transparency                    #
+##########################################
+# URxvt*transparent: true
+# URxvt*shading: 50
+# URxvt*inheritPixmap: true
+# URxvt*shading: 20
+# URxvt*tint: #000000
+
+! Xft.antialias: 1
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb

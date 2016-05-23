@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/zedexodus/.mozilla/firefox/ikoaujyf.default'
+let g:netrw_dirhist_2='/home/zedexodus/.config/bspwm'
+let g:netrw_dirhist_3='/home/zedexodus/devel/python/lpthw/test'
+let g:netrw_dirhist_4='/home/zedexodus/.config/bspwm'
+let g:netrw_dirhist_5='/home/zedexodus/.config'
+let g:netrw_dirhist_6='/home/zedexodus/.vim'
